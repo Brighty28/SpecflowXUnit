@@ -35,6 +35,6 @@ steps:
         
 - task: SpecFlowPlus@0
   inputs:
-    projectFilePath: 'SpecflowXUnit'
-    projectName: 'Specture'
+    projectFilePath: 'SpecflowXUnit/Bowling.SpecFlowXUnit'
+    projectName: 'Bowling.SpecFlowXUnit'
     projectLanguage: 'en'
