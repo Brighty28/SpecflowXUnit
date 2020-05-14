@@ -32,3 +32,9 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+        
+- task: SpecFlowPlus@0
+  inputs:
+    projectFilePath: 'SpecflowXUnit'
+    projectName: 'Specture'
+    projectLanguage: 'en'
